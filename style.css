@@ -1,0 +1,59 @@
+/* @font-face {
+  font-family: langdonRegular;
+  src: url(Langdon.otf);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+body {
+  height:100%
+  padding: 0px;
+  margin:0px;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(318.png);
+  background-size: cover;
+  /* background-image: url(wall_texture.jpg); */
+
+}
+
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  font-family: 'Fleur De Leah', cursive;
+  font-size:12vmin;
+  color: black;
+  margin-top:2em;
+  margin-bottom: 0em;
+  align-content: center;
+}
+
+#text1{
+  font-size: 2.8vmin;
+  font-family: serif;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 0.1em;
+}
+
+#rumi-input, #rumi-button{
+  font-size: 2vmin;
+  padding: 0.8vmin;
+  font-family: monospace;
+}
+
+#rumi-output {
+  font-size: 3vmin;
+  margin-top: 0.2em;
+  margin-left: 8em;
+  margin-right: 8em;
+  font-family: monospace;
+}
+
+#rumi-button, #rumi-input {
+  margin-top: 0.3em;
+}
